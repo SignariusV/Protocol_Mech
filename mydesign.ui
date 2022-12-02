@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>971</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>542</width>
+      <height>286</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="pz_number_lb">
+       <property name="text">
+        <string>№ ПЗ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="pz_number_line"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="name_lb">
+       <property name="text">
+        <string>Наименование объекта</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="name_line"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="acronym_lb">
+       <property name="text">
+        <string>Сокращение</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="acronymComboBox">
+       <item>
+        <property name="text">
+         <string>СВ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>УВ</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>УСВ</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="producer_lb">
+       <property name="text">
+        <string>Производитель</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="producerComboBox">
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+       <property name="currentText">
+        <string>Сантел</string>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Сантел</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ителма</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="model_lb">
+       <property name="text">
+        <string>Марка модели</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="model_line"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="protocol_number_lb">
+       <property name="text">
+        <string>№ протокола</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="protocol_number_line"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="letter_lb">
+       <property name="text">
+        <string>Буква приложения</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="letter_line"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="samples_lb">
+       <property name="text">
+        <string>Серийные номера</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="sample_3_num"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="sample_1">
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="sample_3">
+           <property name="text">
+            <string>3</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLineEdit" name="sample_1_num"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="sample_2_num"/>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="sample_2">
+           <property name="text">
+            <string>2</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="metrolog_lb_2">
+       <property name="text">
+        <string>Метролог</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QComboBox" name="metrologComboBox">
+       <item>
+        <property name="text">
+         <string>Ведущий инженер по метрологии	Ю.П. Коломейцев</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="tester_lb">
+       <property name="text">
+        <string>Испытатель</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="testerComboBox">
+       <item>
+        <property name="text">
+         <string>Инженер НТОИ		И.В. Вертаев</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>323</y>
+      <width>541</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6"/>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>541</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Применить к файлу</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>971</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
